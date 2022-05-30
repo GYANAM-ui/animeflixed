@@ -12,10 +12,10 @@ const SearchBar: React.FC<{}> = () => {
 
   return (
     <>
-      <center>
+      <div className="items-center">
         <AnimeflixIcon className="mt-10 h-7 w-7 cursor-pointer sm:ml-6" />
         <h1 className="mt-10 text-white">Under Development Process</h1>
-      </center>
+      </div>
     </>
   );
 };
