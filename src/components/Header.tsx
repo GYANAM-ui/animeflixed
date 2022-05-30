@@ -31,6 +31,15 @@ const Header: React.FC<{}> = () => {
           onKeyPress={handleKeyPress}
         ></input>
       </div>
+      <Link href="/search/searchanime">
+        <a className="ml-5 text-white">Search Anime</a>
+      </Link>
+      <Link href="/about">
+        <a className="ml-5 text-white">About</a>
+      </Link>
+      <Link href="/download">
+        <a className="ml-5 text-white">Download</a>
+      </Link>
     </header>
   );
 };

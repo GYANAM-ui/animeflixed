@@ -4,6 +4,7 @@ import { InferGetServerSidePropsType } from 'next';
 
 import Banner from '@components/anime/Banner';
 import Section from '@components/anime/Section';
+import Footer from '@components/Footer';
 import Header from '@components/Header';
 import progressBar from '@components/Progress';
 import { AnimeInfoFragment } from '@generated/aniList';
@@ -64,6 +65,8 @@ const Index = ({
 
       <Section title="Popular" animeList={popular.media} />
       <Section title="Top Rated (All time)" animeList={topRated.media} />
+
+      <Footer />
     </>
   );
 };
