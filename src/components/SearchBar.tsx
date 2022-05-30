@@ -1,5 +1,3 @@
-import AnimeflixIcon from '@components/AnimeFlixIcon';
-
 const SearchBar: React.FC<{}> = () => {
   //   const router = useRouter();
 
@@ -12,8 +10,7 @@ const SearchBar: React.FC<{}> = () => {
 
   return (
     <>
-      <div className="items-center">
-        <AnimeflixIcon className="mt-10 h-7 w-7 cursor-pointer sm:ml-6" />
+      <div className="text-center">
         <h1 className="mt-10 text-white">Under Development Process</h1>
       </div>
     </>

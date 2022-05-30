@@ -31,14 +31,26 @@ const Header: React.FC<{}> = () => {
           onKeyPress={handleKeyPress}
         ></input>
       </div>
+      <Link href="/">
+        <a className="ml-5 transform text-white transition duration-150 hover:scale-110">
+          Home
+        </a>
+      </Link>
       <Link href="/search/searchanime">
-        <a className="ml-5 text-white">Search Anime</a>
+        <a className="ml-5 transform text-white transition duration-150 hover:scale-110">
+          Search Anime
+        </a>
       </Link>
-      <Link href="/about">
-        <a className="ml-5 text-white">About</a>
-      </Link>
+      <a
+        href="#about"
+        className="ml-5 transform text-white transition duration-150 hover:scale-110"
+      >
+        About
+      </a>
       <Link href="/download">
-        <a className="ml-5 text-white">Download</a>
+        <a className="ml-5 transform text-white transition duration-150 hover:scale-110">
+          Download
+        </a>
       </Link>
     </header>
   );

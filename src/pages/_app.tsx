@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        title="Animeflix - Watch animes without ads"
+        title="AnimeFlix - Watch animes without ads"
         description="Watch anime shows, tv, movies for free without ads on your mobile, tablet, or pc"
         additionalMetaTags={[
           {

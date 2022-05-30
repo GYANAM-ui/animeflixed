@@ -7,6 +7,7 @@ import Section from '@components/anime/Section';
 import Footer from '@components/Footer';
 import Header from '@components/Header';
 import progressBar from '@components/Progress';
+import UpdateNews from '@components/UpdateNews';
 import { AnimeInfoFragment } from '@generated/aniList';
 import { getAnimeByIds, indexPage } from '@lib/api';
 
@@ -55,6 +56,8 @@ const Index = ({
       <Header />
 
       <Banner anime={banner} />
+
+      <UpdateNews />
 
       <Section title="Trending Now" animeList={trending.media} />
 
