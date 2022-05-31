@@ -217,6 +217,9 @@ const Watch = ({
           <WatchControls />
 
           <Episode />
+          <p className="text-base font-semibold text-white sm:text-lg md:text-xl lg:mt-0 lg:text-2xl xl:text-3xl 2xl:text-4xl">
+            Description
+          </p>
 
           {/* Anime decription */}
           <p className="m-2 text-gray-400 line-clamp-6 md:line-clamp-none">

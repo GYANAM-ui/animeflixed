@@ -26,7 +26,7 @@ const Header: React.FC<{}> = () => {
       <div className="ml-4 flex items-center rounded bg-gray-50 py-[1px] px-2 sm:ml-6">
         <SearchIcon className="h-4 w-4" />
         <input
-          className="w-44 bg-transparent p-1 text-sm text-black placeholder-gray-400 outline-none sm:w-56 md:w-64 lg:w-72"
+          className="w-50 bg-transparent p-1 text-sm text-black placeholder-gray-400 outline-none sm:w-56 md:w-64 lg:w-72"
           placeholder="Search for Anime to watch"
           onKeyPress={handleKeyPress}
         ></input>

@@ -78,13 +78,21 @@ export default function UpdateNews() {
                           <br />
                           <br />
                           <span className="font-medium text-blue-600">
-                            Now you can watch your favorite anime shows, tv,
+                            Now, you can watch your favorite anime shows, tv,
                             movies for free without ads on your mobile, tablet,
                             or pc.
                           </span>
                           <br />
                           <br />
+                          <span className="font-medium text-gray-500">
+                            A new User Interface is coming very soon.
+                          </span>
+                          <br />
+                          <br />
                           <span className="font-medium">Updated by GYANAM</span>
+                          <br />
+                          <br />
+                          <span className="font-medium">Thank You!</span>
                         </p>
                       </div>
                     </div>
@@ -104,7 +112,7 @@ export default function UpdateNews() {
                     onClick={() => setOpen(false)}
                     ref={cancelButtonRef}
                   >
-                    Cancel
+                    Close
                   </button>
                 </div>
               </Dialog.Panel>
