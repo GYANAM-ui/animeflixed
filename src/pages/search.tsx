@@ -40,12 +40,12 @@ const Search = ({
 
   return (
     <>
-      <NextSeo title={`Results for ${keyword} | Animeflix`} />
+      <NextSeo title={`Results for "${keyword}" • Animeflix`} />
 
       <Header />
 
       <p className="mt-4 ml-3 text-base text-white sm:ml-6 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
-        Results for {keyword}
+        Results for &#34;{keyword}&#34;
       </p>
 
       <div className="mt-2 grid grid-cols-2 place-items-center gap-y-8 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">

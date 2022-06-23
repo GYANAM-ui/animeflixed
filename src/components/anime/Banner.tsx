@@ -47,6 +47,10 @@ const Banner: React.FC<BannerProps> = ({ anime }) => {
         {/* the title */}
         <p className="text-xl font-extrabold line-clamp-1 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
           {anime.title.romaji || anime.title.english}
+          &nbsp;
+          <span className="rounded-full bg-gray-200 px-3 text-lg text-gray-800">
+            NEW
+          </span>
         </p>
         <p className="text-sm font-normal text-gray-300 line-clamp-1 sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
           {anime.title.english ?? anime.title.romaji}
@@ -76,9 +80,9 @@ const Banner: React.FC<BannerProps> = ({ anime }) => {
           passHref
         >
           <a>
-            <button className="mt-2 flex transform items-center rounded-lg bg-[#C3073F] px-2 py-1 text-xs text-white transition duration-300 ease-in active:scale-90 sm:text-sm md:text-base">
+            <button className="mt-2 flex transform items-center rounded-lg bg-[#C3073F] px-2 py-1 text-xs font-medium text-white transition duration-300 ease-in active:scale-90 sm:text-sm md:text-base">
               <PlayIcon className="mr-1 w-5" />
-              {router.route === '/' ? 'Read More' : 'Watch Now'}
+              {router.route === '/' ? 'View More' : 'Watch Now'}
             </button>
           </a>
         </Link>
