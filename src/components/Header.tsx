@@ -36,12 +36,6 @@ const Header: React.FC<{}> = () => {
           Home
         </a>
       </Link>
-      <a
-        href="#about"
-        className="ml-5 transform text-white transition duration-150 hover:scale-110"
-      >
-        About
-      </a>
     </header>
   );
 };
