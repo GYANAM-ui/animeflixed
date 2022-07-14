@@ -33,7 +33,7 @@ const Header: React.FC<{}> = () => {
       </div>
       <Link href="/">
         <a className="ml-5 transform text-white transition duration-150 hover:scale-110">
-          Home
+          More
         </a>
       </Link>
     </header>
