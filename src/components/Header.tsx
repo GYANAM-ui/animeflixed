@@ -31,7 +31,7 @@ const Header: React.FC<{}> = () => {
           onKeyPress={handleKeyPress}
         ></input>
       </div>
-      <Link href="/">
+      <Link href="/more">
         <a className="ml-5 transform text-white transition duration-150 hover:scale-110">
           More
         </a>

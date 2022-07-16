@@ -82,7 +82,7 @@ const Banner: React.FC<BannerProps> = ({ anime }) => {
           <a>
             <button className="mt-2 flex transform items-center rounded-lg bg-[#C3073F] px-2 py-1 text-xs font-medium text-white transition duration-300 ease-in active:scale-90 sm:text-sm md:text-base">
               <PlayIcon className="mr-1 w-5" />
-              {router.route === '/' ? 'View More' : 'Watch Now'}
+              {router.route === '/' ? 'View More' : 'Play Now'}
             </button>
           </a>
         </Link>
