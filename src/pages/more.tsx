@@ -8,16 +8,16 @@ const MoreNav: React.FC<{}> = () => {
       <Header />
         <div className="text-align-center">
           <Link href="/">
-              <a href="">Home</a>
+            <a href="">Home</a>
           </Link>
           <Link href="/upgrade">
-              <a href="">Upgrade</a>
+            <a href="">Upgrade</a>
           </Link>
           <Link href="/latst-fearures">
-              <a href="">Latest</a>
+            <a href="">Latest</a>
           </Link>
           <Link href="/">
-              <a href="#about">About</a>
+            <a href="#about">About</a>
           </Link>
         </div>
     </>
