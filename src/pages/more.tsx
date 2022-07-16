@@ -1,4 +1,5 @@
 import Header from '@components/Header';
+
 import Link from 'next/link';
 
 const MoreNav: React.FC<{}> = () => {
@@ -9,15 +10,15 @@ const MoreNav: React.FC<{}> = () => {
           <Link href="/">
               <a href="">Home</a>
           </Link>
-          <hr/>
+          <hr></hr>
           <Link href="/upgrade">
               <a href="">Upgrade</a>
           </Link>
-          <hr/>
+          <hr></hr>
           <Link href="/latst-fearures">
               <a href="">Latest</a>
           </Link>
-          <hr/>
+          <hr></hr>
           <Link href="/">
               <a href="#about">About</a>
           </Link>
